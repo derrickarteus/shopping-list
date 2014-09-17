@@ -1,0 +1,146 @@
+/**** FONT IMPORTS ****/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+
+/**** BODY STYLING ****/
+
+html, body {
+    background-color: #00A3EF;
+    height: 100%;
+    min-width: 900px;
+}
+
+/**** CONTAINER STYLING ****/
+
+#container {
+    width: 490px;
+    height: 100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 30px 50px 0px 50px;
+}
+
+/**** HEADER STYLING *****/
+
+img {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: 100
+}
+
+/***** ADD ITEM STYLING ****/
+
+#addItem {
+    width: 410px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    border-bottom: 1.8px solid black;
+}
+
+#items {
+    height: 25px;
+    width: 260px;
+    font-family: arial, sans-serif;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-size: 0.9em;
+    padding-left: 10px;
+}
+
+#add {
+    background-color: #00A3EF;
+    height: 30px;
+    width: 35px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 1em;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+#add:hover {
+    background-color: #008AE6;
+}
+
+#reset {
+    background-color: #00A3EF;
+    height: 30px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 0.8em;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+#reset:hover {
+    background-color: #008AE6;
+}
+
+/**** LIST ITEM STYLING GENERAL ****/
+
+#list {
+    width: 240px;
+    margin: 0 auto;
+}
+
+.checkbox {
+    margin-right: 20px;
+}
+
+.delete {
+    float: right;
+}
+
+.checkbox, .delete {
+    background-color: #00A3EF;
+    height: 30px;
+    width: 35px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 0.8em;
+    color: #ffffff;
+}
+
+.checkbox:hover, .delete:hover {
+     background-color: #008AE6;
+}
+
+.listItem {
+    font-family: helvetica, sans-serif;
+    font-size: 1em;
+}
+
+li {
+    padding-bottom: 15px;
+}
+
+/**** NEW LIST ITEM STYLING ****/
+
+.new {
+    /* pending */
+}
+
+/**** COMPLETED ITEM STYLING *****/
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/**** DELETED ITEM STYLING ****/
+
+.deleted {
+    display: none;
+}
+    
+    
