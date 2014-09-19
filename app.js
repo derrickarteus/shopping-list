@@ -3,7 +3,7 @@ $(document).ready(function() {
     // Pressing Enter triggers as a click in function below
     $(document).keypress(function(e) {
         if(e.keyCode == 13) {
-            event.preventDefault();
+            e.preventDefault();
             $('#add').click();
         } 
     });
@@ -16,7 +16,7 @@ $(document).ready(function() {
            alert('Please enter an item (max length 10 characters).');
        } else {
             $('#items').val('');
-            $('<li class="new"></li>').appendTo('ul').html('<button class="checkbox">✓</button><span class="listItem">' + item + '</span><button class="delete">X</button>');
+            $('<li class="new"></li>').appendTo('#list ul').html('<button class="checkbox">✓</button><span class="listItem">' + item + '</span><button class="delete">X</button>');
        }
    });
     
@@ -32,7 +32,7 @@ $(document).ready(function() {
     
    // Resets entire list when reset button clicked
     $(document).on('click', '#reset', function() {
-        $('ul').empty();
+        $('#list ul').empty();
         $('#items').val('');
     });
     
